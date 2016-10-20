@@ -3,6 +3,7 @@
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
   "private": true,
+  "config": { "ionic_copy": "./src/xmodule/etc/copy-assets.js" },
   "scripts": {
     "build": "ionic-app-scripts build",
     "watch": "ionic-app-scripts watch",
@@ -26,6 +27,7 @@
     "ionic-angular": "2.0.0-rc.1",
     "ionic-native": "2.2.3",
     "ionicons": "3.0.0",
+    "ng2-file-upload": "^1.1.2",
     "rxjs": "5.0.0-beta.12",
     "zone.js": "0.6.21"
   },
